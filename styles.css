@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  transition: background-color 0.3s ease;
+}
+
+#root {
+  width: min(700px, 100%);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+h1,
+h2 {
+  margin-bottom: 1rem;
+}
+
+.counter {
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.btn-group {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+  padding: 0.8rem 1rem;
+  cursor: pointer;
+  font-weight: 600;
+  background-color: #0A192F; /* default color */
+  color: white;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+.color-btn {
+  min-width: 90px;
+}
+.h1{
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  color: #0A192F;
+}
